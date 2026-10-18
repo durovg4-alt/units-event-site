@@ -1,5 +1,5 @@
 node_modules/
 work/
+.playwright-cli/
 .DS_Store
 *.log
-

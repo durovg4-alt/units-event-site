@@ -328,7 +328,7 @@ cocktailNext?.addEventListener("click", () => {
 cocktailPause?.addEventListener("click", () => {
   cocktailsPaused = !cocktailsPaused;
   cocktailPause.textContent = cocktailsPaused ? "Старт" : "Пауза";
-  cocktailPause.setAttribute("aria-label", cocktailsPaused ? "Запустить карусель коктейлей" : "Поставить карусель коктейлей на паузу");
+  cocktailPause.setAttribute("aria-label", cocktailsPaused ? "Запустить фотогалерею" : "Поставить фотогалерею на паузу");
   startCocktailCarousel();
 });
 
