@@ -20,6 +20,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Gothic 60";
+  src: url("/fonts/Gothic60-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: dark;
   --wine: #3f0712;
@@ -81,7 +89,7 @@ body.menu-open {
 h1,
 h2,
 h3 {
-  font-family: "Melody", "Transforma Mix", sans-serif;
+  font-family: "Gothic 60", "Melody", "Transforma Mix", sans-serif;
   font-weight: 400;
   letter-spacing: -0.025em;
 }
