@@ -193,22 +193,14 @@ img {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
   justify-self: start;
   width: max-content;
-  font-family: "Transforma Mix", Arial, sans-serif;
-  letter-spacing: 0.18em;
-  font-size: 0.76rem;
-  font-weight: 500;
 }
 
-.brand-mark {
-  width: 46px;
-  overflow: visible;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: square;
-  stroke-width: 1.35;
+.brand-logo {
+  width: 168px;
+  height: auto;
+  object-fit: contain;
 }
 
 .desktop-nav {
@@ -1229,12 +1221,11 @@ img {
     height: 68px;
   }
 
-  .brand-mark { width: 31px; }
+  .brand-logo { width: 132px; }
   .brand {
     position: relative;
     z-index: 3;
   }
-  .brand span { font-size: 0.67rem; }
 
   .hero-content {
     justify-content: flex-end;
