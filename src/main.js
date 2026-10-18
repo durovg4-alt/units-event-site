@@ -103,11 +103,13 @@ function initMotion() {
     .from(".hero-bottom", { y: 24, autoAlpha: 0, duration: 0.8 }, 1.03)
     .from(".hero-meta span", { y: 10, autoAlpha: 0, duration: 0.5, stagger: 0.07 }, 1.2);
 
-  gsap.to(".hero-media img", {
-    yPercent: 10,
-    ease: "none",
-    scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1.2 },
-  });
+  if (!window.matchMedia("(max-width: 760px)").matches) {
+    gsap.to(".hero-media img", {
+      yPercent: 10,
+      ease: "none",
+      scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1.2 },
+    });
+  }
 
   document.querySelectorAll("[data-motion-text='words']").forEach((element) => {
     splitWords(element);

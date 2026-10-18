@@ -274,12 +274,12 @@ img {
 }
 
 .hero-media img {
-  width: 112%;
+  width: 100%;
   max-width: none;
-  height: 108%;
-  margin-left: 9%;
+  height: 110%;
+  margin-left: 0;
   object-fit: cover;
-  object-position: left center;
+  object-position: center 52%;
   transform: scale(1.04);
 }
 
@@ -1229,14 +1229,18 @@ img {
   }
 
   .hero-media img {
-    width: 116%;
-    height: 100%;
-    margin-left: 4%;
-    object-position: 26% center;
+    width: 100%;
+    height: auto;
+    margin: 68px 0 0;
+    object-fit: contain;
+    object-position: center top;
+    transform: none;
   }
 
   .hero-shade {
-    background: linear-gradient(180deg, rgba(13, 2, 5, 0.3), rgba(13, 2, 5, 0.24) 38%, rgba(13, 2, 5, 0.94) 82%);
+    background:
+      linear-gradient(180deg, rgba(13, 2, 5, 0.08) 0%, rgba(13, 2, 5, 0.12) 31%, rgba(13, 2, 5, 0.92) 47%, #0d0205 61%),
+      linear-gradient(90deg, rgba(13, 2, 5, 0.24), transparent 30%, transparent 72%, rgba(13, 2, 5, 0.24));
   }
 
   .hero h1 {
