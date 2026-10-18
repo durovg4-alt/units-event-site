@@ -682,16 +682,6 @@ img {
   object-fit: cover;
 }
 
-.slide figcaption {
-  position: absolute;
-  z-index: 2;
-  right: 4vw;
-  bottom: 42px;
-  display: flex;
-  gap: 24px;
-  font-size: 0.8rem;
-}
-
 .carousel-controls {
   position: absolute;
   z-index: 5;
@@ -1229,6 +1219,15 @@ img {
 
   .site-header,
   .site-header.is-scrolled {
+    top: 0;
+    height: calc(68px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
+    background: rgba(25, 1, 6, 0.92);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+
+  .header-inner {
     height: 68px;
   }
 
@@ -1246,7 +1245,7 @@ img {
   .hero-media img {
     width: 100%;
     height: auto;
-    margin: 68px 0 0;
+    margin: calc(68px + env(safe-area-inset-top, 0px)) 0 0;
     object-fit: contain;
     object-position: center top;
     transform: none;
