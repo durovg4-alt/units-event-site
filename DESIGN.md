@@ -3,6 +3,8 @@
 ## Concept
 “Light through a drink”: a dark, cinematic event world cut by warm translucent color. The page should feel like a controlled bar performance — precise, tactile and adult — rather than a generic luxury template.
 
+The hero and mobile-bar offer use supplied documentary event photography; generated imagery remains only where final client originals have not yet been supplied.
+
 ## Tokens
 - Oxblood `#3f0712`: primary brand field.
 - Black cherry `#190106`: deep background and contrast.
@@ -22,7 +24,8 @@
 - Service cards use blurred event photography under a wine gradient; sticky positioning lets each incoming format overlap the previous one while scrolling.
 - Left alignment dominates. Center alignment is reserved for the final contact scene.
 - The header and hero share the same shell: the left edge resolves to the logo and the right edge to the primary contact action.
-- The cocktail narrative uses one rounded square media stage with four named, switchable drinks.
+- The cocktail narrative uses one rounded square media stage with four switchable drink photographs.
+- Cocktail photos remain switchable but are deliberately unnamed; compact progress dots replace captions and text tabs.
 
 ## Motion
 - One orchestrated hero entrance.
