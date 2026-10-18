@@ -76,7 +76,7 @@ body {
   overflow-x: hidden;
   background: var(--cherry);
   color: var(--porcelain);
-  font-family: "Transforma Mix", Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial Nova", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
@@ -196,6 +196,7 @@ img {
   gap: 11px;
   justify-self: start;
   width: max-content;
+  font-family: "Transforma Mix", Arial, sans-serif;
   letter-spacing: 0.18em;
   font-size: 0.76rem;
   font-weight: 500;
@@ -969,11 +970,15 @@ img {
 }
 
 .adv-icon {
-  display: block;
+  display: grid;
+  place-items: start;
   min-height: 130px;
-  color: var(--champagne);
-  font-size: 4.3rem;
-  font-weight: 200;
+}
+
+.adv-icon img {
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
 }
 
 .advantage-grid h3 {
@@ -1381,7 +1386,8 @@ img {
     border-bottom: 1px solid var(--line);
   }
 
-  .adv-icon { min-height: 85px; }
+  .adv-icon { min-height: 96px; }
+  .adv-icon img { width: 76px; height: 76px; }
 
   .script-note {
     top: -5%;
